@@ -1,0 +1,33 @@
+1) x=123
+for y in x:
+    print(y)
+Answer- This throws TypeError:'int'object is not iterable as integers can't be iterable in pythong only variable with type list, tuple, strig can be iterable.
+
+2)
+i=0
+while i<5: # start the while loop as conditoon is true
+    print(i) 
+    i+=1 # i is 0 so i=i+1 is 1 do this until i=2 and go to else
+    if i==3 #jump out of the loop
+    break
+    else:
+        print("Error")
+Answer-The output is 
+0 
+error
+1
+error
+2
+
+3) count=0
+while True: # while condition is true so get into the loop
+    print(count) #print current number of count
+    count+=1 #perform count=count+1
+    if count>=5: # jump out of the loop and stop pritning when count is grater than or equals 5
+        break
+Answer- The output for this is 
+0
+1
+2
+3
+4
