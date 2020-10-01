@@ -1,0 +1,44 @@
+print("This task is for calculating Average of Marks")
+
+Science=int(input("Enter the marks for Science: "))
+Math=int(input("Enter the marks for Math: "))
+English=int(input("Enter the marks for English: "))
+History=int(input("Enter the marks for History: "))
+English=int(input("Enter the marks for English: "))
+
+totalmarks= Science +Math +English +History + English
+
+print("Total Marks = ", totalmarks)
+
+num=int(input("how many subjects: "))
+
+Average=(totalmarks)/5
+
+while True:
+    print("Average Marks = ", Average)
+
+    if Average<0:
+        print("Improve your marks")
+        break
+
+    if(Average>=90):
+        print("Excellent")
+        continue
+
+    elif (Average>=50 and Average<=60):
+        print("below Average")
+        break
+
+    elif (Average>=60 and Average<=70):
+        print("Average")
+        break
+
+    elif (Average>=70 and Average<=80):
+        print("Good")
+        break
+
+    elif (Average>=80 and Average<=90):
+        print("Very good")
+        break
+
+print("Average marks for 5 Subjects, Passed")
